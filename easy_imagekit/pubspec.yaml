@@ -1,6 +1,6 @@
 name: easy_imagekit
-description: "A powerful and easy-to-use Flutter image processing library that supports multi-source image loading (network/Asset/file/SVG), rich style configuration, and gesture-based preview. Boasting excellent performance optimization and cross-platform compatibility, it simplifies image-related development with a concise API."
-version: 0.0.1
+description: "A powerful, easy-to-use Flutter image processing library. Supports multi-source loading (network/Asset/file/SVG), rich styling, optimized performance, and cross-platform compatibility—simplifying image development with a concise API."
+version: 0.0.2
 homepage: https://github.com/wjneng
 repository: https://github.com/wjneng/easy_imagekit
 

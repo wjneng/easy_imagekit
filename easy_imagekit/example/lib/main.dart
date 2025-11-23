@@ -70,29 +70,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   height: 150,
                   backgroundColor: Colors.white,
                 ),
-                previewConfig: ImagePreviewConfig(
-                  images: imageList,
-                  initialIndex: 0,
-                ),
               ),
               EasyImage.circle(
                 imageList[1],
                 size: 150,
                 onTap: () {
-                  print('点击了图片');
+                  // print('点击了图片');
                 },
-                previewConfig: ImagePreviewConfig(
-                  images: imageList,
-                  initialIndex: 1,
-                  customBottomWidgets: [
-                    Container(color: Colors.red, height: 100),
-                    Container(color: Colors.green, height: 100),
-                    Container(color: Colors.blue, height: 100),
-                    Container(color: Colors.orange, height: 100),
-                    Container(color: Colors.pink, height: 100),
-                    Container(color: Colors.orange, height: 100),
-                  ],
-                ),
               ),
 
               EasyImage(
@@ -110,10 +94,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
-                previewConfig: ImagePreviewConfig(
-                  images: imageList,
-                  initialIndex: 2,
-                ),
               ),
 
               EasyImage(
@@ -129,10 +109,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       offset: Offset(0, 10),
                     ),
                   ],
-                ),
-                previewConfig: ImagePreviewConfig(
-                  images: imageList,
-                  initialIndex: 3,
                 ),
 
                 placeholder: Center(child: Text('加载中')),
@@ -150,11 +126,6 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.white.withAlpha(180),
                   colorBlendMode: BlendMode.softLight,
                 ),
-                previewConfig: ImagePreviewConfig(
-                  images: imageList,
-                  initialIndex: 4,
-                ),
-
                 placeholder: Center(child: Text('加载中')),
                 errorWidget: Center(child: Text('失败')),
               ),
@@ -173,11 +144,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
-                previewConfig: ImagePreviewConfig(
-                  images: imageList,
-                  initialIndex: 5,
-                ),
-
                 placeholder: Center(child: Text('加载中')),
                 errorWidget: Center(child: Text('失败')),
               ),

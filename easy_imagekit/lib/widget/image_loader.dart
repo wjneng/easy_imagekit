@@ -12,10 +12,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 class ImageLoader {
   /// 加载图片并返回合适的Widget
   static Widget loadImage(ImageSource source, ImageStyle style,
-      {Widget? placeholder,
-      Widget? errorWidget,
-      VoidCallback? onTap,
-      bool Function()? shouldRepaint}) {
+      {Widget? placeholder, Widget? errorWidget, VoidCallback? onTap}) {
     // 构建基础容器
     Widget imageWidget;
 
